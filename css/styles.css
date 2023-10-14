@@ -127,38 +127,6 @@ button[type=submit]:hover {
     cursor: pointer;
 }
 
-/* second content */
-
-.second-content {
-    background-image: url(/images/2024-GLE-SUV-DR_BCK.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: gray;
-    height: 100vw;
-}
-
-/* third content */
-
-.third-content {
-    background-image: url(/images/GLE-2024-SUV-TIM-1-DR.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: red;
-    height: 100vw;
-}
-
 
 /* cart */
 .sec {
