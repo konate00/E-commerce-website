@@ -44,72 +44,111 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
         </nav>
     </header>
 
-    <!-- content -->
+    <!-- img Card with text -->
 
-    <section class="content" class="w-25 p-3">
-        <div class="w-75 p-3">
-            <h1>Unleash the Road's Best: Power and Comfort Combined</h1>
-            <p>Discover the perfect harmony of performance and luxury in our exquisite car collection.</p>
-            <button>Explore</button>
+    <div class="card text-bg-dark">
+        <img src="https://www.landrover-brooklyn.com/wp-content/themes/DealerInspireDealerTheme/images/bg-seo.jpg?ver=1695143499" class="card-img-fluid" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          <button class="btn btn-button">Explore</button>
         </div>
-    </section>
+      </div>
+
+    <!-- Automatic Carousel -->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.mbusa.com/content/dam/mb-nafta/us/inventory/inventory-landing/electric-eqs.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.mbusa.com/content/dam/mb-nafta/us/inventory/inventory-landing/convertible.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.mbusa.com/content/dam/mb-nafta/us/inventory/inventory-landing/coupe.png" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://www.mbusa.com/content/dam/mb-nafta/us/myco/my23/e/cabriolet/all-vehicles/2023-E450-CABRIOLET-AVP-D.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.mbusa.com/content/dam/mb-nafta/us/inventory/inventory-landing/Inventory_Landing_Articles-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://di-uploads-pod10.dealerinspire.com/landroverbrooklyn/uploads/2022/11/Range-rover.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+
+    <!-- HR -->
     <div>
         <hr class="border border-danger border-3 opacity-50">
         <h1 class="pheading" id="New arrivals" aria-labelledby="New arrivals">Our Latest Products</h1>
         <hr class="border border-danger border-3 opacity-50">
     </div>
-
-    <!-- Bootstrap Carousel -->
+    
+    <!-- Bootstrap EQB Carousel -->
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="https://www.mbusa.com/content/dam/mb-nafta/ca/myco/my23/eqb-suv/gallery/series/gallery-class/2023-EQB-SUV-GAL-001-XL.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>EQB 300 4MATIC in Digital White</h5>
-              <p>The signature mercedes-EQ Black Panel and full-width LED lighting lead the way with distinction.</p>
-              <button class="btn btn-button">Explore</button>
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://www.mbusa.com/content/dam/mb-nafta/ca/myco/my23/eqb-suv/gallery/series/gallery-class/2023-EQB-SUV-GAL-001-XL.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>EQB 300 4MATIC in Digital White</h5>
+                    <p>The signature mercedes-EQ Black Panel and full-width LED lighting lead the way with distinction.</p>
+                    <button class="btn btn-button">Explore</button>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="https://www.mbusa.com/content/dam/mb-nafta/ca/myco/my23/eqb-suv/gallery/series/gallery-class/2023-EQB-SUV-GAL-002-XL.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>EQB 350 4MATIC in Iridium Silver with 19-inch 5-spoke wheels</h5>
-              <p>Spacious, capable and luxurious, the all electric EQB takes the compact SUV into a new era of versatillity.</p>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://www.mbusa.com/content/dam/mb-nafta/ca/myco/my23/eqb-suv/gallery/series/gallery-class/2023-EQB-SUV-GAL-002-XL.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>EQB 350 4MATIC in Iridium Silver with 19-inch 5-spoke wheels</h5>
+                    <p>Spacious, capable and luxurious, the all electric EQB takes the compact SUV into a new era of versatillity.</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.mbusa.com/content/dam/mb-nafta/ca/myco/my23/eqb-suv/gallery/series/gallery-class/2023-EQB-SUV-GAL-003-XL.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>EQB 300 4MATIC in Iridium Silver</h5>
-              <p>The reaview camera hides behind the Star in the liftgate, helping it stay cleaner until you need it.</p>
+            <div class="carousel-item">
+                <img src="https://www.mbusa.com/content/dam/mb-nafta/ca/myco/my23/eqb-suv/gallery/series/gallery-class/2023-EQB-SUV-GAL-003-XL.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>EQB 300 4MATIC in Iridium Silver</h5>
+                    <p>The reaview camera hides behind the Star in the liftgate, helping it stay cleaner until you need it.</p>
+                </div>
             </div>
-          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
+    
+                <!-- content -->
 
+    <!-- <section class="content" class="w-25 p-3">
+        <div class="w-75 p-3">
+            <h1>Unleash the Road's Best: Power and Comfort Combined</h1>
+            <p>Discover the perfect harmony of performance and luxury in our exquisite car collection.</p>
+            <button>Explore</button>
+        </div>
+    </section> -->
 
-
-    <!-- Second img -->
+                <!-- Second img -->
 
     <!-- <div class="container">
         <div class="row">
@@ -120,7 +159,7 @@
         </div>
     </div> -->
 
-    <!-- bootstrap image -->
+                <!-- bootstrap image -->
     
     <!-- <div class="container">
         <div class="row">

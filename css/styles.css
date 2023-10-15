@@ -74,7 +74,7 @@ button[type=submit]:hover {
 .navbar .menu li a:hover {
     border-bottom: 4px solid #f63e4e;
 }
-.
+/* .
 .search {
     height: 40px;
     width: 80%;
@@ -83,15 +83,12 @@ button[type=submit]:hover {
     margin-right: -35px;
     font-family: 'Rubik', sans-serif;
     border: 2px solid rgb(248, 26, 92);
-}
-.px-2.search {
-    
-}
+} */
 .btn {
     border-radius: 5px;
 }
 /* content */
-.content {
+/* .content {
     background-image: url(/images/2024-GLE_SUV_DR.jpg.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,7 +100,7 @@ button[type=submit]:hover {
     align-items: flex-start;
     color: #424144;
     height: 100vw;
-}
+} */
 /* .text {
     background: #f3f4f6;
     background-blend-mode;
