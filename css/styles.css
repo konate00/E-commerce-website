@@ -1,12 +1,8 @@
 body {
     height: 100%;
 }
-* {
-    margin: 0px;
-    padding: 0;
-    font-family: sans-serif;
-}
-/* ul.menu */
+/*  */
+
 .navbar .navbar-nav li {
     list-style: none;
     display: inline-block;
@@ -74,7 +70,7 @@ button[type=submit]:hover {
 .navbar .menu li a:hover {
     border-bottom: 4px solid #f63e4e;
 }
-/* .
+
 .search {
     height: 40px;
     width: 80%;
@@ -83,107 +79,11 @@ button[type=submit]:hover {
     margin-right: -35px;
     font-family: 'Rubik', sans-serif;
     border: 2px solid rgb(248, 26, 92);
-} */
+}
 .btn {
     border-radius: 5px;
 }
-/* content */
-/* .content {
-    background-image: url(/images/2024-GLE_SUV_DR.jpg.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: #424144;
-    height: 100vw;
-} */
-/* .text {
-    background: #f3f4f6;
-    background-blend-mode;
-    min-width: 380px;
-} */
-.content h1 {
-    font-size: 40px;
-}
-.content p {
-    font-size: 20px;
-    margin-top: 20px;
-}
-.content button {
-    margin-top: 30px;
-    padding: 15px 30px;
-    border: none;
-    background: #f63e4e;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-
-/* cart */
-.sec {
-    padding: 10px 5%;
-
-}
-.products {
-    display: inline-block;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 10px;
-}
-
-.products .card {
-    width: 310px;
-    background: #f5f5f5;
-    /* box-shadow: 0 10px 20px rgb (0, 0, 0, 0.3); */
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 20px;
-}
-.products .card img {
-    height: 250px;
-    width: 100%;
-}
-.products .card .desc {
-    padding: 5px 20px;
-    /* opacity: 0.8; */
-}
-.products .card .title {
-    font-weight: 900;
-    font-size: 20px;
-    color: #424144;
-    padding: 0 20px;
-}
-.products .card .box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-.products .card .box .price {
-    color: #f63e4e;
-    font-size: 20px;
-    font-weight: bold;
-}
-.products .card .box .btn {
-    font-size: 13px;
-    color: #f63e4e;
-    padding: 10px 18px;
-    font-weight: 900;
-    border: 1px solid #f63e4e;
-    border-radius: 20px;
-}
-.products .card .box .btn:hover {
-    /* cursor: pointer; */
-    background-color: #f63e4e;
-    color: white;
-}
-
-/* footer */
 footer {
     background-color: #f3f4f6;
     height: 10vh;
@@ -191,10 +91,10 @@ footer {
 footer p {
     text-align: center;
     line-height: 10vh;
+    color: #424144;
 }
 footer p a {
     text-decoration: none;
-    color: #f63e4e;
+    color: #1b1b32;
     font-weight: bold;
 }
-
