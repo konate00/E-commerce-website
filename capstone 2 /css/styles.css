@@ -1,0 +1,37 @@
+/* 
+#results {
+    font-size: 20px;
+    background: linear-gradient(#fff, #fff) padding-box, 
+    linear-gradient(45deg, #0fd850, #f9f047) border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+} */
+  
+.park-result {
+    display: inline-flex;
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 10vh;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 10px rgba(82, 221, 7, 0.2);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    /* gap: 20px; */
+}
+/* 
+.container-2 {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    justify-content:center
+} */

@@ -1,6 +1,5 @@
 "use strict"
 
-"use strict"
 const mountainsArray = [
     {
         name: "Mt. Washington",
@@ -534,7 +533,7 @@ const mountainsArray = [
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    const mountainDropdown = document.getElementById('mountainDropdown');
+    const mountainDropdown = document.querySelector('#mountainDropdown');
 
 
     // Populate the mountain dropdown
@@ -567,22 +566,24 @@ async function getSunsetForMountain(lat, lng) {
 
 function displayMountainInfo(mountain, sunriseData) {
     const mountainInfoDiv = document.querySelector('#mountainInfo');
-    // const mountainImage = document.getElementById('mountainImage');
-    if (mountain) {
-        const sunriseTime = new Date(sunriseData.sunrise).toLocaleTimeString();
 
+    if (mountain) {
+        // const sunriseTime = new Date(sunriseData.sunrise).toLocaleTimeString();
+        //console.log(sunriseData);
+       // const sunriseTime = new Date(sunriseData.sunrise).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
         const mountainInfo = `
             <h2>${mountain.name}</h2>
             <p>Elevation: ${mountain.elevation} feet</p>
             <p>Effort: ${mountain.effort}</p>
-            <img src="../images" ${mountain.img} alt="${mountain.name}">
+            <img src="images/${mountain.img}" alt="${mountain.name}">
             <p>${mountain.desc}</p>
-            <p>Coordinates: ${mountain.coords.lat}, ${mountain.coords.lng}</p>
-            <p>Sunrise Time: ${sunriseTime}</p>
-        `;
-        mountainInfoDiv.innerHTML = mountainInfo;
-        // mountainImage.src = `../images/${mountain.img}`;
+            <p>Coordinates: (Where ${mountain.coords.lat} is a <b>latitude</b> and ${mountain.coords.lng} is a <b>longitude</b>)</p>
+            <p>Sunrise Time: ${sunriseData.sunrise}</p>
+            <p>Sunset Time: ${sunriseData.sunset}</p>
+            `;
+            mountainInfoDiv.innerHTML = mountainInfo;
     } else {
         mountainInfoDiv.innerHTML = '<p>No information available for the selected mountain.</p>';
     }
 }
+/* <h3>${mountain.name}</h3> */
